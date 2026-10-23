@@ -56,11 +56,12 @@ async def on_message(message):
     if "chihuahua" in message.content.lower():
         await message.channel.send(f"{message.author.mention}, - Ik Chihuahua Jij Chihuahua Wij chihuahua.")
 
+
     if "chatgpt" in message.content.lower():
         await message.channel.send(f"{message.author.mention}, - Ben je een boomer ofzo chatgpt was nieuw in 2020.")
 
     if "sam" in message.content.lower():
-        await message.channel.send(f"{message.author.mention}, - Sam is afwezig as hij niet binnen de 5 minuten reageert")
+        await message.channel.send(f"{message.author.mention}, - Sam is afwezig as hij niet binnen de 5 minuten reageert, hij is wss appelmoes aan het eten")
 
     if "yalsify" in message.content.lower():
         await message.channel.send(f"{message.author.mention}, - Yalsify is super nice.")
@@ -71,6 +72,8 @@ async def on_message(message):
     if "thomas" in message.content.lower():
         await message.channel.send(f"{message.author.mention}, - Thomas is wss MineCraft aan het grinden")
 
+
+
  
 
     if "appelmoes" in message.content.lower():
@@ -79,6 +82,9 @@ async def on_message(message):
     if "kanker" in message.content.lower():
         await message.delete()
         await message.channel.send(f"{message.author.mention}, - Niet schelden met ziektes in deze server.")
+
+    
+
 
    
     
