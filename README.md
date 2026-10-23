@@ -18,7 +18,7 @@ FUN COMMANDOS:
 
 there are more coming
 
-GEBLOKKEERDE WOORDEN
+BLOCKED WORDS
 N word and variants
 Kanker (dutch cuss word) and variants
 
