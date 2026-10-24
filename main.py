@@ -72,6 +72,17 @@ async def on_message(message):
     if "thomas" in message.content.lower():
         await message.channel.send(f"{message.author.mention}, - Thomas is wss MineCraft aan het grinden")
 
+    if "9r" in message.content.lower():
+        await message.channel.delete()
+        await message.channel.send(f"{message.author.mention}, - Geen racisme in deze server.")
+
+    if "neg er" in message.content.lower():
+            await message.channel.delete()
+            await message.channel.send(f"{message.author.mention}, - Geen racisme in deze server.")
+
+    if "nigga" in message.content.lower():
+            await message.channel.delete()
+            await message.channel.send(f"{message.author.mention}, - Geen racisme in deze server.")
 
 
  
